@@ -24,20 +24,20 @@ class ViewController: UIViewController {
     }
 
     @IBAction func btChange(_ sender: UIButton) {
-        switch a {
-        case 1:
+        if a == 1{
             view.backgroundColor = UIColor.yellow
             a += 1
             lblColor.text = "yellow"
-        case 2:
+        }
+        else if a == 2{
             view.backgroundColor = UIColor.brown
             a += 1
             lblColor.text = "brown"
-        default:
+        }
+        else if a == 3{
             view.backgroundColor = UIColor.blue
             a = 1
             lblColor.text = "blue"
-            <#code#>
         }
     }
     
