@@ -38,6 +38,22 @@ class ViewController: UIViewController {
             view.backgroundColor = UIColor.blue
             a = 1
             lblColor.text = "blue"
+            
+//            switch a {
+//            case 1:
+//                view.backgroundColor = UIColor.yellow
+//                a += 1
+//                lblColor.text = "yellow"
+//            case 2:
+//                view.backgroundColor = UIColor.brown
+//                a += 1
+//                lblColor.text = "brown"
+//            default:
+//                view.backgroundColor = UIColor.blue
+//                a = 1
+//                lblColor.text = "blue"
+//                <#code#>
+//            }
         }
     }
     
